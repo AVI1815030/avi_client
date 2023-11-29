@@ -9,7 +9,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = (props) => {
-  const socket = useMemo(() => io("https://coherent-quartz-scaffold.glitch.me"), []);
+  const socket = useMemo(() => io("https://sheikhhospitalserver1.onrender.com"), []);
 
   return (
     <SocketContext.Provider value={socket}>
